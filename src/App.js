@@ -12,7 +12,6 @@ import './App.css';
 class App extends React.Component {
   constructor() {
     super();
-    console.log('test')
     this.state = {
       currentUser: null
     };

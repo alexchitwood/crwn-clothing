@@ -13,13 +13,6 @@ import { selectCurrentUser } from './redux/user/user.selectors';
 import './App.css';
 
 class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      currentUser: null
-    };
-  }
-
   unsubscribeFromAuth = null;
 
   componentDidMount() {
